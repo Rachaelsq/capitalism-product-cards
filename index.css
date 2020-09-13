@@ -5,7 +5,9 @@
     text-align: center;
     font-family: 'Staatliches', cursive;
     font-size: 50px;
-    color: green;
+    color: white;
+    letter-spacing: 10px;
+
 }
 
 body {
@@ -19,30 +21,35 @@ body {
         background-color: blanchedalmond;
         max-width: 300px;
         border-radius: 35px;
-        display: inline-block;
         align-items: center;
+        display: inline-block;
         justify-content: center;
         box-shadow: 0 35px 30px 10px rgba(141, 33, 66, 0.4);
         margin-right: 3%;
+        margin-left: 3%;
+        
 
 
     }
 
     .productCardOne {
         width: 100vw;
-        height: 100vh;    border-radius: 10px;
+        height: 100vh;    
+        border-radius: 10px;
         box-shadow: cornflowerblue 10px 40px;
-        display: flex;
     }
 
+  
         img {
-            max-width: 300px;
+            padding-top: 5px;
+            max-width: 230px;
         }
 
         .tiers {
             font-family: 'Staatliches', cursive;
             color: #dd7958;
             font-size: 35px;
+            
         }
 
         .productDescription {
@@ -50,7 +57,7 @@ body {
         }
 
         h3 {
-            font-size: 25px;
+            font-size: 35px;
             font-family: 'Staatliches', cursive;
             color:green ;
         }
@@ -72,7 +79,7 @@ body {
           
           button:hover {
             background-color: #b30000; 
-            color: white;
+            color: rgb(0, 0, 0);
           }
 
 /* here ends the  product card */
@@ -91,5 +98,4 @@ footer {
         display: inline-block;
         margin-bottom: 4%;
         margin-top: 4%;
-
     }
