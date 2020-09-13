@@ -4,6 +4,8 @@
     color:black);
     text-align: center;
     font-family: 'Staatliches', cursive;
+    font-size: 50px;
+    color: green;
 }
 
 body {
@@ -19,7 +21,10 @@ body {
         border-radius: 35px;
         display: inline-block;
         align-items: center;
-  justify-content: center;
+        justify-content: center;
+        box-shadow: 0 35px 30px 10px rgba(141, 33, 66, 0.4);
+        margin-right: 3%;
+
 
     }
 
@@ -36,24 +41,39 @@ body {
 
         .tiers {
             font-family: 'Staatliches', cursive;
+            color: #dd7958;
+            font-size: 35px;
         }
 
         .productDescription {
             font-family: sans-serif;
         }
 
-        .price {
-            font-size: 12px;
-
+        h3 {
+            font-size: 25px;
+            font-family: 'Staatliches', cursive;
+            color:green ;
         }
 
         button {
         margin-bottom: 20px;
+        margin-top: -12px;
         border-radius: 25px;
-        padding: 20px;
+        padding: 15px;
         font-family: sans-serif;
-        font-size: 12px;
+        font-size: 20px;
+        background-color: #dd7958;
+        box-shadow: 0 15px 55px 10px rgba(83, 8, 31, 0.4);
         }
+
+        button {
+            transition-duration: 0.6s;
+          }
+          
+          button:hover {
+            background-color: #b30000; 
+            color: white;
+          }
 
 /* here ends the  product card */
 
@@ -65,7 +85,11 @@ footer {
 
 /* creating a responsive page below */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) 
 
     #container {
         display: inline-block;
+        margin-bottom: 4%;
+        margin-top: 4%;
+
+    }
