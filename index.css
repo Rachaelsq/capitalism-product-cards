@@ -1,14 +1,61 @@
 
 
 .tooMundane {
-    color: rgb(255, 248, 233);
+    color:black);
     text-align: center;
+    font-family: 'Staatliches', cursive;
 }
 
 body {
-    background-image: url(https://intuitiveharmonymedicine.com/wp-content/uploads/2020/09/beach-bg-1.png);
+    background-image: url(https://intuitiveharmonymedicine.com/wp-content/uploads/2020/09/pinkbg-1024x1024.png);
 }
 
-img {
-    
+/* here is the product card */
+
+#container {
+    text-align: center;  
+    background-color: blanchedalmond;
+    max-width: 300px;
+    border-radius: 35px;
+ 
 }
+
+.productCardOne {
+    width: 100vw;
+    height: 100vh;    border-radius: 10px;
+    box-shadow: cornflowerblue 10px 40px;
+    display: flex;
+
+
+}
+
+    img {
+        max-width: 300px;
+    }
+
+    .tiers {
+        font-family: 'Staatliches', cursive;
+    }
+
+    .productDescription {
+        font-family: sans-serif;
+    }
+
+    .price {
+        font-color: green;
+    }
+
+    button {
+    margin-bottom: 20px;
+    }
+
+/* here ends the  product card */
+
+footer {
+    font-family: 'Libre Barcode 128 Text', cursive;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 60px;
+
+/* creating a responsive page below */
+  
