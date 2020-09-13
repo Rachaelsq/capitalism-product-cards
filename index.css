@@ -1,4 +1,12 @@
 
+{
+
+display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
 
 .tooMundane {
     color:black);
@@ -23,6 +31,7 @@ body {
         border-radius: 35px;
         align-items: center;
         display: inline-block;
+        flex-wrap: wrap;
         justify-content: center;
         box-shadow: 0 35px 30px 10px rgba(141, 33, 66, 0.4);
         margin-right: 3%;
@@ -56,10 +65,18 @@ body {
             font-family: sans-serif;
         }
 
+        .productDetails {
+            font-family: sans-serif;
+            font-size: 13px;
+            opacity: 0.7;
+
+        }
+
         h3 {
             font-size: 35px;
             font-family: 'Staatliches', cursive;
             color:green ;
+            margin-top: 0px;
         }
 
         button {
