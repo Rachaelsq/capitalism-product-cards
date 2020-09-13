@@ -7,47 +7,53 @@
 }
 
 body {
-    background-image: url(https://intuitiveharmonymedicine.com/wp-content/uploads/2020/09/pinkbg-1024x1024.png);
+    background-image: url(https://intuitiveharmonymedicine.com/wp-content/uploads/2020/09/pinkbg-1-1024x1024.png);
 }
 
 /* here is the product card */
 
-#container {
-    text-align: center;  
-    background-color: blanchedalmond;
-    max-width: 300px;
-    border-radius: 35px;
- 
-}
-
-.productCardOne {
-    width: 100vw;
-    height: 100vh;    border-radius: 10px;
-    box-shadow: cornflowerblue 10px 40px;
-    display: flex;
-
-
-}
-
-    img {
+    #container {
+        text-align: center;  
+        background-color: blanchedalmond;
         max-width: 300px;
+        border-radius: 35px;
+        display: inline-block;
+        align-items: center;
+  justify-content: center;
+
     }
 
-    .tiers {
-        font-family: 'Staatliches', cursive;
+    .productCardOne {
+        width: 100vw;
+        height: 100vh;    border-radius: 10px;
+        box-shadow: cornflowerblue 10px 40px;
+        display: flex;
     }
 
-    .productDescription {
+        img {
+            max-width: 300px;
+        }
+
+        .tiers {
+            font-family: 'Staatliches', cursive;
+        }
+
+        .productDescription {
+            font-family: sans-serif;
+        }
+
+        .price {
+            font-size: 12px;
+
+        }
+
+        button {
+        margin-bottom: 20px;
+        border-radius: 25px;
+        padding: 20px;
         font-family: sans-serif;
-    }
-
-    .price {
-        font-color: green;
-    }
-
-    button {
-    margin-bottom: 20px;
-    }
+        font-size: 12px;
+        }
 
 /* here ends the  product card */
 
@@ -58,4 +64,8 @@ footer {
     font-size: 60px;
 
 /* creating a responsive page below */
-  
+
+@media screen and (min-width: 700px) {
+
+    #container {
+        display: inline-block;
